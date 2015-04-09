@@ -1,4 +1,4 @@
-# HandwrittenHindiClassifier
+# HandwrittenHindi
 Use CNNs and MLPs to classify handwritten Hindi, using three datasets from 
 http://lipitk.sourceforge.net/hpl-datasets.htm.
 

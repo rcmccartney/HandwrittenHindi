@@ -1,0 +1,441 @@
+>> mnist
+Printing confusion matrix..
+
+ans =
+
+Instance 116 in val 1 wrong: actual 5 predicted 10
+
+
+ans =
+
+Instance 176 in val 1 wrong: actual 8 predicted 2
+
+
+ans =
+
+Instance 48 in val 201 wrong: actual 5 predicted 3
+
+
+ans =
+
+Instance 141 in val 201 wrong: actual 6 predicted 4
+
+
+ans =
+
+Instance 46 in val 401 wrong: actual 7 predicted 1
+
+
+ans =
+
+Instance 50 in val 401 wrong: actual 4 predicted 6
+
+
+ans =
+
+Instance 183 in val 401 wrong: actual 9 predicted 3
+
+
+ans =
+
+Instance 60 in val 601 wrong: actual 3 predicted 2
+
+
+ans =
+
+Instance 121 in val 601 wrong: actual 6 predicted 9
+
+
+ans =
+
+Instance 148 in val 801 wrong: actual 9 predicted 10
+
+
+ans =
+
+Instance 15 in val 1001 wrong: actual 7 predicted 6
+
+
+ans =
+
+Instance 40 in val 1001 wrong: actual 8 predicted 2
+
+
+ans =
+
+Instance 113 in val 1001 wrong: actual 5 predicted 7
+
+
+ans =
+
+Instance 27 in val 1201 wrong: actual 8 predicted 3
+
+
+ans =
+
+Instance 48 in val 1201 wrong: actual 10 predicted 6
+
+
+ans =
+
+Instance 100 in val 1201 wrong: actual 6 predicted 8
+
+
+ans =
+
+Instance 120 in val 1201 wrong: actual 9 predicted 1
+
+
+ans =
+
+Instance 15 in val 1401 wrong: actual 10 predicted 8
+
+
+ans =
+
+Instance 123 in val 1401 wrong: actual 8 predicted 10
+
+
+ans =
+
+Instance 128 in val 1401 wrong: actual 2 predicted 6
+
+
+ans =
+
+Instance 22 in val 1601 wrong: actual 1 predicted 7
+
+
+ans =
+
+Instance 110 in val 1601 wrong: actual 10 predicted 6
+
+
+ans =
+
+Instance 102 in val 1801 wrong: actual 10 predicted 5
+
+
+ans =
+
+Instance 36 in val 2001 wrong: actual 6 predicted 4
+
+
+ans =
+
+Instance 71 in val 2001 wrong: actual 8 predicted 10
+
+
+ans =
+
+Instance 99 in val 2001 wrong: actual 3 predicted 1
+
+
+ans =
+
+Instance 119 in val 2001 wrong: actual 7 predicted 1
+
+
+ans =
+
+Instance 131 in val 2001 wrong: actual 5 predicted 10
+
+
+ans =
+
+Instance 136 in val 2001 wrong: actual 7 predicted 2
+
+
+ans =
+
+Instance 170 in val 2201 wrong: actual 6 predicted 4
+
+
+ans =
+
+Instance 7 in val 2401 wrong: actual 10 predicted 5
+
+
+ans =
+
+Instance 27 in val 2401 wrong: actual 10 predicted 5
+
+
+ans =
+
+Instance 48 in val 2401 wrong: actual 5 predicted 10
+
+
+ans =
+
+Instance 89 in val 2401 wrong: actual 3 predicted 5
+
+
+ans =
+
+Instance 183 in val 2401 wrong: actual 10 predicted 8
+
+
+ans =
+
+Instance 198 in val 2401 wrong: actual 6 predicted 4
+
+
+ans =
+
+Instance 55 in val 2601 wrong: actual 7 predicted 2
+
+
+ans =
+
+Instance 97 in val 2801 wrong: actual 9 predicted 1
+
+
+ans =
+
+Instance 122 in val 2801 wrong: actual 4 predicted 9
+
+
+ans =
+
+Instance 128 in val 2801 wrong: actual 4 predicted 3
+
+
+ans =
+
+Instance 140 in val 2801 wrong: actual 10 predicted 6
+
+
+ans =
+
+Instance 154 in val 2801 wrong: actual 4 predicted 6
+
+
+ans =
+
+Instance 74 in val 3001 wrong: actual 2 predicted 3
+
+
+ans =
+
+Instance 23 in val 3401 wrong: actual 7 predicted 1
+
+
+ans =
+
+Instance 121 in val 3401 wrong: actual 7 predicted 5
+
+
+ans =
+
+Instance 159 in val 3401 wrong: actual 6 predicted 1
+
+
+ans =
+
+Instance 160 in val 3401 wrong: actual 9 predicted 6
+
+
+ans =
+
+Instance 198 in val 3401 wrong: actual 10 predicted 4
+
+
+ans =
+
+Instance 163 in val 3601 wrong: actual 7 predicted 9
+
+
+ans =
+
+Instance 168 in val 3601 wrong: actual 8 predicted 3
+
+
+ans =
+
+Instance 9 in val 3801 wrong: actual 8 predicted 9
+
+
+ans =
+
+Instance 107 in val 3801 wrong: actual 2 predicted 4
+
+
+ans =
+
+Instance 186 in val 3801 wrong: actual 10 predicted 5
+
+
+ans =
+
+Instance 79 in val 4001 wrong: actual 10 predicted 9
+
+
+ans =
+
+Instance 177 in val 4001 wrong: actual 3 predicted 8
+
+
+ans =
+
+Instance 2 in val 4201 wrong: actual 2 predicted 8
+
+
+ans =
+
+Instance 98 in val 4401 wrong: actual 9 predicted 8
+
+
+ans =
+
+Instance 105 in val 4401 wrong: actual 3 predicted 8
+
+
+ans =
+
+Instance 137 in val 4401 wrong: actual 7 predicted 6
+
+
+ans =
+
+Instance 141 in val 4601 wrong: actual 4 predicted 6
+
+
+ans =
+
+Instance 15 in val 4801 wrong: actual 7 predicted 1
+
+
+ans =
+
+Instance 81 in val 4801 wrong: actual 1 predicted 9
+
+
+ans =
+
+Instance 200 in val 5001 wrong: actual 7 predicted 5
+
+
+ans =
+
+Instance 58 in val 5401 wrong: actual 2 predicted 9
+
+
+ans =
+
+Instance 138 in val 5801 wrong: actual 6 predicted 4
+
+
+ans =
+
+Instance 156 in val 5801 wrong: actual 4 predicted 9
+
+
+ans =
+
+Instance 174 in val 5801 wrong: actual 4 predicted 9
+
+
+ans =
+
+Instance 186 in val 5801 wrong: actual 6 predicted 4
+
+
+ans =
+
+Instance 198 in val 5801 wrong: actual 6 predicted 10
+
+
+ans =
+
+Instance 12 in val 6001 wrong: actual 4 predicted 1
+
+
+ans =
+
+Instance 156 in val 6401 wrong: actual 9 predicted 10
+
+
+ans =
+
+Instance 160 in val 6401 wrong: actual 5 predicted 8
+
+
+ans =
+
+Instance 172 in val 6401 wrong: actual 10 predicted 8
+
+
+ans =
+
+Instance 198 in val 6401 wrong: actual 1 predicted 8
+
+
+ans =
+
+Instance 52 in val 6601 wrong: actual 1 predicted 9
+
+
+ans =
+
+Instance 184 in val 6601 wrong: actual 2 predicted 7
+
+
+ans =
+
+Instance 9 in val 8401 wrong: actual 9 predicted 7
+
+
+ans =
+
+Instance 128 in val 8401 wrong: actual 5 predicted 10
+
+
+ans =
+
+Instance 10 in val 9001 wrong: actual 8 predicted 3
+
+
+ans =
+
+Instance 141 in val 9401 wrong: actual 2 predicted 9
+
+
+ans =
+
+Instance 35 in val 9601 wrong: actual 1 predicted 9
+
+
+ans =
+
+Instance 65 in val 9601 wrong: actual 3 predicted 8
+
+
+ans =
+
+Instance 80 in val 9601 wrong: actual 7 predicted 4
+
+
+ans =
+
+Instance 130 in val 9601 wrong: actual 6 predicted 7
+
+
+ans =
+
+Instance 171 in val 9601 wrong: actual 6 predicted 1
+
+  975     0     1     1     0     2     4     0     2     0 
+    0  1128     1     0     0     0     2     2     0     0 
+    0     1  1026     1     1     0     0     3     1     0 
+    0     1     0  1002     0     6     1     0     0     1 
+    0     0     1     0   975     0     2     0     0     4 
+    0     1     0     3     0   880     2     0     1     3 
+    1     1     0     0     1     1   946     0     1     0 
+    1     1     3     0     1     1     0  1020     1     3 
+    3     2     0     3     0     1     1     1   966     1 
+    0     0     0     0     4     1     0     2     2   997 
+
+ans = 
+
+    layers: {[1x1 struct]  [1x1 struct]  [1x1 struct]  [1x1 struct]  [1x1 struct]  [1x1 struct]  [1x1 struct]  [1x1 struct]}

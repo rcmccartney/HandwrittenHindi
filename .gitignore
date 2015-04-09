@@ -5,6 +5,19 @@ ehthumbs.db
 # Folder config file
 Desktop.ini
 
+# latek
+MLP_neural_networks/termpaper/
+
+# math project
+images/
+
+# too large
+data/
+MLP_neural_networks/originalData
+
+*.mat 
+*.ascii
+
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
 

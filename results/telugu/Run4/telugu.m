@@ -1,5 +1,4 @@
 function [net, info] = telugu(varargin)
-% Added a third layer of dropout from Run2
 
 run(fullfile('C:\Users\Henry\Box Sync\Projects\matconvnet-master\matlab', ...
     'vl_setupnn.m')) ;
@@ -14,10 +13,10 @@ opts.train.continue = true ;  % can continue training after stopping
 opts.train.useGpu = true ;
 opts.train.learningRate = [0.1*ones(1, 25) 0.01*ones(1, 25) 0.001*ones(1, 25) 0.0001*ones(1,25)] ;
 opts.weightDecay = 0.0005 ;
-opts.momentum = 0.90 ;
+opts.momentum = 0.95 ;
 opts.train.outputClasses = 169 ;
 opts.train.expDir = opts.expDir ;
-opts = vl_argparse(opts, varargin) ;
+opts = vl_argparse(opts, varargin);
 
 % --------------------------------------------------------------------
 %                                                         Prepare data
@@ -30,6 +29,7 @@ else
   save(opts.imdbPath, '-struct', 'imdb') ;
 end
 
+% Define a network similar to LeNet
 f=1/100 ;
 net.layers = {} ;
 net.layers{end+1} = struct('type', 'conv', ...
@@ -58,6 +58,7 @@ net.layers{end+1} = struct('type', 'conv', ...
                            'stride', 1, ...
                            'pad', 0) ;
 net.layers{end+1} = struct('type', 'relu') ;
+net.layers{end+1} = struct('type', 'dropout', 'rate', 0.5) ;
 net.layers{end+1} = struct('type', 'conv', ...
                            'filters', f*randn(1,1,500,opts.train.outputClasses, 'single'),...
                            'biases', zeros(1,opts.train.outputClasses ,'single'), ...
@@ -68,7 +69,7 @@ net.layers{end+1} = struct('type', 'softmaxloss') ;
 % --------------------------------------------------------------------
 %                                                                Train
 % --------------------------------------------------------------------
-tic ; 
+
 % Take the mean out and make GPU if needed
 if opts.train.useGpu
   imdb.images.data = gpuArray(imdb.images.data) ;
@@ -77,10 +78,7 @@ end
 [net, info] = cnn_train(net, imdb, @getBatch, ...
     opts.train, ...
     'val', find(imdb.images.set == 3)) ;
-
-toc
-end
-
+end 
 % --------------------------------------------------------------------
 function [im, labels] = getBatch(imdb, batch)
 % --------------------------------------------------------------------

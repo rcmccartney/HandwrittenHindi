@@ -1,0 +1,3 @@
+Had to stop it after 
+Elapsed time is 21360.428209 seconds.
+It had not yet learned and only completed ~60 iterations, too slow to be usable

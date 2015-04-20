@@ -5,6 +5,7 @@ function [net, info] = cnn_train(net, imdb, getBatch, varargin)
 %    It can be used with different datasets by providing a suitable
 %    getBatch function.
 
+
 % default values
 opts.train = [] ;
 opts.val = [] ;

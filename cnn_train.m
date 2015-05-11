@@ -6,6 +6,7 @@ function [net, info] = cnn_train(net, imdb, getBatch, varargin)
 %    getBatch function.
 
 
+
 % default values
 opts.train = [] ;
 opts.val = [] ;
